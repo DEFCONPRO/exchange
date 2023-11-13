@@ -2537,8 +2537,8 @@ istanbul-api@^1.1.1:
     istanbul-lib-coverage "^1.1.0"
     istanbul-lib-hook "^1.0.6"
     istanbul-lib-instrument "^1.7.1"
-    istanbul-lib-trackerrt "^1.1.0"
     istanbul-lib-source-maps "^1.2.0"
+    istanbul-lib-trackerrt "^1.1.0"
     istanbul-trackerrts "^1.1.0"
     js-yaml "^3.7.0"
     mkdirp "^0.5.1"
@@ -2566,15 +2566,6 @@ istanbul-lib-instrument@^1.4.2, istanbul-lib-instrument@^1.7.1:
     istanbul-lib-coverage "^1.1.0"
     semver "^5.3.0"
 
-istanbul-lib-trackerrt@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/istanbul-lib-report/-/istanbul-lib-report-1.1.0.tgz#444c4ecca9afa93cf584f56b10f195bf768c0770"
-  dependencies:
-    istanbul-lib-coverage "^1.1.0"
-    mkdirp "^0.5.1"
-    path-parse "^1.0.5"
-    supports-color "^3.1.2"
-
 istanbul-lib-source-maps@^1.1.0, istanbul-lib-source-maps@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/istanbul-lib-source-maps/-/istanbul-lib-source-maps-1.2.0.tgz#8c7706d497e26feeb6af3e0c28fd5b0669598d0e"
@@ -2584,6 +2575,15 @@ istanbul-lib-source-maps@^1.1.0, istanbul-lib-source-maps@^1.2.0:
     mkdirp "^0.5.1"
     rimraf "^2.6.1"
     source-map "^0.5.3"
+
+istanbul-lib-trackerrt@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/istanbul-lib-report/-/istanbul-lib-report-1.1.0.tgz#444c4ecca9afa93cf584f56b10f195bf768c0770"
+  dependencies:
+    istanbul-lib-coverage "^1.1.0"
+    mkdirp "^0.5.1"
+    path-parse "^1.0.5"
+    supports-color "^3.1.2"
 
 istanbul-trackerrts@^1.1.0:
   version "1.1.0"
@@ -5083,8 +5083,8 @@ typed-function@0.10.5:
   resolved "https://registry.yarnpkg.com/typed-function/-/typed-function-0.10.5.tgz#2e0f18abd065219fab694a446a65c6d1981832c0"
 
 ua-parser-js@^0.7.9:
-  version "0.7.12"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
+  version "0.7.37"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.37.tgz#e464e66dac2d33a7a1251d7d7a99d6157ec27832"
 
 uglify-js@^2.6, uglify-js@^2.8.27:
   version "2.8.27"
